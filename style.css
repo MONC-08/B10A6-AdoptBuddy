@@ -11,3 +11,8 @@ body {
 .text-light {
     color: #838383;
 }
+
+.active {
+    background-color: #E7F2F2;
+    border-radius: 50%;
+}
