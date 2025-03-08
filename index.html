@@ -17,9 +17,9 @@
 </head>
 
 <body>
-    <header>
-
-        <nav class="w-11/12 mx-auto py-4 flex justify-between items-center">
+    <header class="w-11/12 mx-auto">
+        <!-- navbar section-->
+        <nav class="py-4 flex justify-between items-center">
             <div class="flex gap-2 justify-center items-center">
                 <div class="w-8">
                     <img class="w-full object-cover" src="./images/logo.webp" alt="">
@@ -28,7 +28,7 @@
             </div>
 
             <div>
-                <ul class="flex gap-3 text-buddy text-sm text-details">
+                <ul class="flex gap-3 text-buddy text-sm text-light">
                     <li>Home</li>
                     <li>Shop</li>
                     <li>Contact</li>
@@ -42,6 +42,20 @@
 
 
         </nav>
+        <!-- banner section -->
+        <section class="hero flex flex-col gap-2">
+            <div class="text-center py-2 space-y-2">
+                <p class="tagline">Bringing Families Together ❤️</p>
+                <h1 class="text-4xl font-bold">Your Path to Adoption Starts Here</h1>
+                <p class="description text-light">
+                    It is a long established fact that a reader will be distracted by the readable content
+                    of a page when looking at its layout.
+                </p>
+
+                <button class="btn bg-[#0E7A81] text-white">View More</button>
+            </div>
+            <img src="./images/pet.webp" alt="Dog and Cat" class="hero-image">
+        </section>
 
     </header>
 
